@@ -38,3 +38,16 @@ function colorGreyChange(){
     colorGrey.style.backgroundColor = 'white';
 }
 
+//Практическое задание №3
+function showPreviousImg()
+{
+    let hometask3Img = document.getElementById('hometask3Img');
+    hometask3Img.src = "/img/img2.jpg";
+}
+
+function showNextImg()
+{
+    let hometask3Img = document.getElementById('hometask3Img');
+    hometask3Img.src = "/img/img3.jpg";
+}
+

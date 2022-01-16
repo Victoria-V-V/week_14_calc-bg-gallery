@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .calculator {
@@ -20,6 +20,7 @@
 
 #result {
     border-bottom: 1px solid red;
+    font-weight: bold;
 }
 
 
@@ -29,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
+    margin-bottom: 40px;
 }
 
 .hometask2__container {
@@ -48,4 +50,12 @@
 
 #colorGrey {
     background-color: grey;
+}
+
+/* Практическое задание №3 */
+.hometask3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }

@@ -11,10 +11,8 @@
 
 <body>
     <main>
-
         <section class="hometask1">
             <div>Практическое задание №1</div>
-
             <input type="number" name="number" id="number1" placeholder="Выберите первое число">
             <input type="number" name="number" id="number2" placeholder="Выберите второе число">
 
@@ -24,11 +22,9 @@
                 <button class="button" onclick="divide()">&divide;</button>
                 <button class="button" onclick="multiplay()">&times;</button>
             </div>
-
             <div>Результат:</div>
             <div id="result"></div>
         </section>
-
 
         <section class="hometask2">
             <div>Практическое задание №2</div>
@@ -38,8 +34,14 @@
             </div>
         </section>
 
-
-
+        <section class="hometask3">
+            <div>Практическое задание №3</div>
+            <img src="/img/img1.jpg" width="30%" id="hometask3Img">
+            <div class="buttons-container">
+                <button id="previousImg" onclick="showPreviousImg()">Назад</button>
+                <button id="nextImg" onclick="showNextImg()">Вперед</button>
+            </div>
+        </section>
     </main>
 
     <script src="/index.js"></script>
