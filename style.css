@@ -1,0 +1,30 @@
+.hometask1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.welcome {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.hometask2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 10px;
+}
+
+.button {
+    font-size: 100px;
+}
